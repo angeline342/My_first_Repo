@@ -1,3 +1,4 @@
-HI team Prism
-Updating the file
-Edited copies are called versions
+HI team Prism, 
+Updating and testing the file 
+Edited copies are called versions. Versioning
+History
