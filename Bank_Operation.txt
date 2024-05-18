@@ -1,0 +1,28 @@
+public class BankOperation {
+    Integer accountBalance=5000;
+   	Integer amountDeposited=3000;
+	Integer amountWithdrawn=6000;
+	Integer balanceAmount;
+    
+        
+	public void deposit()
+	{
+        System.debug('Account Balance = '+accountBalance);
+        balanceAmount=accountBalance+amountDeposited;
+    	System.debug('Balance Amount= ' +balanceAmount);
+	}
+	public void withdraw()
+	{
+         if(accountBalance>= amountWithdrawn)
+   		 {
+      			balanceAmount=accountBalance - amountWithdrawn;
+    			System.debug('Balance Amount= '+balanceAmount);
+   		 }
+   		 else
+   		 {
+       			 System.debug('Insufficient Balance');
+   		 }
+
+	}
+
+}
